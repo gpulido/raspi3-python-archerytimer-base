@@ -1,0 +1,12 @@
+freeze
+#--pre rx
+starlette
+starlette-jwt
+uvicorn
+aiofiles
+pyjwt
+sentry-asgi
+numpy
+pillow
+redis
+readerwriterlock
