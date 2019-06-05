@@ -1,4 +1,4 @@
-FROM balenalib/raspberrypi3-python:3.7.3-run as client-app
+FROM balenalib/raspberrypi3-python:3.7.3-build as client-app
 LABEL authors="Gabriel Pulido"
 
 RUN [ "cross-build-start" ]
