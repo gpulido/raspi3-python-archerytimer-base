@@ -7,8 +7,8 @@ WORKDIR /usr/src/server
 
 COPY requirements.txt .
 
-RUN pip install --pre rx --no-cache-dir --disable-pip-version-check && \
-    pip install -r requirements.txt --no-cache-dir --disable-pip-version-check 
+RUN pip install --user --pre rx --no-cache-dir --disable-pip-version-check && \
+    pip install --user -r requirements.txt --no-cache-dir --disable-pip-version-check 
 
 RUN [ "cross-build-end" ]
 
